@@ -1,0 +1,130 @@
+
+
+body {
+	margin: 0;
+	font-family: 'Sour Gummy', sans-serif;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+	padding: 10px 25px;
+	background-color: blue;
+}
+
+.header img {
+	height: 60px;
+}
+
+.menushka {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	font-size: 30px;
+}
+
+.menushka > a {
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.menushka > a:hover {
+	color: wheat;
+}
+
+.levo > a {
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.levo > a:hover {
+	color: aliceblue;
+}
+
+.pravo {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	gap: 10px;
+	color:  aliceblue;
+
+	font-size: 30px;
+}
+
+.levo {
+	position: relative;
+}
+
+.okoshko {
+	display: none;
+	position: absolute;
+	top: 35px;
+	left: -15px;
+	background-color: blue;
+	width: 100%;
+	text-align: center;
+	padding: 10px 10px;
+	border-bottom-left-radius: 15%;
+	border-bottom-right-radius: 15%;
+}
+
+.okoshko > button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	color: aliceblue;
+	font: inherit;
+}
+
+.okoshko > button:hover {
+	cursor: pointer;
+	color: crimson;
+}
+
+.levo:hover > .okoshko {
+	display: block;
+}
+main{
+	margin: 0 auto;
+	width: 90%;
+	font-family: 'Sour Gummy', sans-serif;
+}
+
+h1 {
+	font-size: 60px;
+}
+.window {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+input {
+	border: none;
+	border-radius: 10px;
+	outline-color: rgb(136, 127, 255);
+	background-color: rgba(52, 131, 200, 0.146);
+	color: black;
+	font: inherit;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	height: 40px;
+	
+}
+
+::placeholder {
+	color: rgba(121, 116, 255, 0.502);
+}
+
+.window > button {
+	border: none;
+	border-radius: 5px;
+	height: 70px;
+	background-color: blue;
+	color: purple;
+	font: inherit;
+	cursor: pointer;
+}
+
+
