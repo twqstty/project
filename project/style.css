@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Faculty+Glyphic&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Eczar', sans-serif;
+    background-color: #000000;
+    width: 375px;
+    height: 812px;
+    border-radius: 40px 0 0 0;
+    border: 4px;
+    background: #F1F4F9;
+    margin: 0 20%;
+}
+.num1{
+    width: 375px;
+    height: 812px;
+    border-radius: 40px ;
+    overflow: hidden;
+    background-color: #F1F4F9;
+    border: 4px solid #FFFFFF;
+    margin-bottom: 20px;
+}
+/* .niga{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #000000;
+    margin: 15px 37% 0 37%;
+} */
+.q{
+    width: 10px;
+    height: 18px;
+    top: 41px;
+    left: 17px;
+    position: relative;
+
+}
+.boards{
+    color: #474747;
+    font-size: 34px;
+    margin-bottom: 0;
+    margin-left: 5%;
+}
+.filters{
+    margin-left: 5%;
+}
+.filters > h3{
+    color: #979ea6;
+    font-size: 14px;
+    margin-top: 0;
+}
+.applied-filters{
+    display: flex;
+    gap: 8px;
+}
+.painting{
+    display: flex;
+    justify-content: space-between;
+    width: 121px;
+    height: 41px;
+    box-sizing: border-box;
+    padding: 12px 11px;
+    border-radius: 10px;
+    background: linear-gradient(270deg, #FD814A -12.71%, #FC5C4C 121.19%);
+    box-shadow: 0 5px 20px 0 rgba(253, 113, 75, 0.25);
+    color: #fff;
+    font-size: 14px;
+}
+.painting > button {
+    width: 8px;
+    height: 8px;
+    border: none;
+    background-color: transparent;
+}
+.painting > button:hover{
+    cursor: pointer;
+}
+.box1{
+    width: 100%;
+    height: 225px;
+
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    overflow: hidden;
+
+}
+.box2{
+    width: 100%;
+    height: 225px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    overflow: hidden;
+}
+.foto{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.kartinka{
+    border-top-left-radius: 10px;
+}
+.kartinka1{
+    border-top-right-radius: 10px;
+}
+.grid-cont{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+    gap: 1px;
+    height: 164px;
+}
+.grid-cont > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.grid-cont > img:first-of-type{
+    grid-row: 1 / 3;
+}
+.grid-cont-1{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2t, 50%);
+    gap: 1px;
+    height: 164px;
+
+}
+.grid-cont-1 > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.grid-cont-1 > img:first-of-type{
+    grid-row: 1 / 2;
+}
+.ss{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 11px;
+    width: 317px;
+    height: 20px;
+    background: #FFFFFF;
+    margin: 0 5%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.ss > span{
+  color: black;
+  font-size: 18px;
+}   
+.ss > button{
+  width: 24px;
+  height: 24px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  background-color: rgba(196, 196, 196, 1);
+}
+.cura{
+    font-family: 'Eczar', sans-serif;
+    font-size: 14px;
+    line-height: 16.41px;
+    letter-spacing: 0.18em;
+    color: #686868;
+    margin-left: 5%;
+}
+.foto2{
+    width: 694px;
+    height: 110px;
+    border-radius: 8px 0 0 0;
+    display: flex;
+    gap: 5px;
+    margin: 0 5%;
+}
+.ty{
+    width: 109px;
+    height: 110px;
+}
+.ty > img{
+    width: 109px;
+    height: 72px;
+    border-radius: 10px;
+}
+.ty > span{
+    font-family: 'Eczar', sans-serif;
+    font-size: 14px;
+    color: #979EA6;
+    margin-left: 7px;
+}
+.list{
+    width: 343px;
+    height: 748px;
+}
+.gridd{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 2fr);
+    grid-template-areas: 'l1 l1'
+                        'l2 l3'
+                        'l4 l3';
+}
+.gridd > img{
+    object-fit: cover;
+}
+.l1{
+    width: 343px;
+    height: 210px;
+    border-radius: 16px;
+    grid-area: l1;
+    margin: 20px 5% 0 5%;
+
+}
+.l2{
+    width: 162px;
+    height: 162px;
+    border-radius: 12px;
+    grid-area: l2;
+    margin: 20px 10% 20px 10%;
+}
+.l3{
+    width: 162px;
+    height: 352px;
+    border-radius: 12px;
+    grid-area: l3;
+    margin: 20px 16%;
+}
+.l4{
+    width: 162px;
+    height: 162px;
+    border-radius: 12px;
+    grid-area: l4;
+    margin: 0 10% ;
+}
+
